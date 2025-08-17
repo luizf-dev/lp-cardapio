@@ -192,3 +192,9 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+// Pega o ano atual
+  const anoAtual = new Date().getFullYear();
+  
+  // Insere o ano dentro do span
+  document.getElementById("ano").textContent = anoAtual;

@@ -1,0 +1,50 @@
+/* Cores Globais - As variáveis de cores a seguir são usadas em todo o site. 
+   Atualizá-las aqui mudará o esquema de cores de todo o site */
+:root { 
+  --background-color: #fbf7f3; /* Cor de fundo de todo o site, incluindo seções individuais */
+  --default-color: #2c1c11; /* Cor padrão usada na maior parte do conteúdo de texto em todo o site */
+  --heading-color: #5c4b36; /* Cor dos títulos, subtítulos e cabeçalhos em todo o site */
+  --accent-color: darkred; /* Cor de destaque que representa a marca no site.Usada em botões, links e outros elementos que precisam chamar atenção */
+  --surface-color: #ffffff; /* Cor de superfície usada como fundo de elementos em caixa dentro das seções, como cards, caixas de ícones ou outros elementos que exigem separação visual do fundo global */
+  --contrast-color: #ffffff; /* Cor de contraste para o texto, garantindo legibilidade contra fundos de cores de destaque, títulos ou cor padrão */
+}
+
+
+
+/* Cores do Menu de Navegação - As variáveis de cores a seguir são usadas especificamente 
+   para o menu de navegação. Elas são separadas das cores globais para permitir mais opções de personalização */
+:root {
+  --nav-color: #2c1c11;  /* Cor padrão dos links principais do menu de navegação */
+  --nav-hover-color: darkred; /* Cor aplicada aos links principais do menu de navegação quando estão em hover ou ativos */
+  --nav-mobile-background-color: #ffffff; /* Cor de fundo do menu de navegação no modo mobile */
+  --nav-dropdown-background-color: #ffffff; /* Cor de fundo dos itens dropdown que aparecem ao passar o mouse sobre os itens principais do menu */
+  --nav-dropdown-color: #2c1c11; /* Cor dos links dos itens dropdown no menu de navegação */
+  --nav-dropdown-hover-color: darkred; /* Cor aplicada aos links dropdown do menu quando estão em hover */
+}
+
+/* Fonts */
+:root {
+  --default-font: "Merriweather",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Roboto Slab",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
+}
+
+
+
+/* Predefinições de Cores - Essas classes substituem as cores globais 
+   quando aplicadas a qualquer seção ou elemento, permitindo reutilizar 
+   o mesmo esquema de cores. */
+
+.light-background {
+  --background-color: #f8f0e9;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #22140a;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #492b16;
+  --contrast-color: #ffffff;
+}
+
