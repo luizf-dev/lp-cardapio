@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://menuqrcode.pensedigital.tec.br/sitemap.xml
